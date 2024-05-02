@@ -1,0 +1,18 @@
+$(function(){
+        $("#button1").click(function(){
+                        $(".box1").fadeIn().siblings().fadeOut();
+                        $(this).addClass("active").siblings().removeClass("active");
+        });	
+        $("#button2").click(function(){
+                        $(".box2").fadeIn().siblings().fadeOut();
+                        $(this).addClass("active").siblings().removeClass("active");
+        });	
+        $("#button3").click(function(){
+                        $(".box3").fadeIn().siblings().fadeOut();
+                        $(this).addClass("active").siblings().removeClass("active");
+        });	
+        $("#button4").click(function(){
+                        $(".box4").fadeIn().siblings().fadeOut();
+                        $(this).addClass("active").siblings().removeClass("active");
+        });	
+});
